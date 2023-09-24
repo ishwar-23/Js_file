@@ -1,4 +1,4 @@
-let score = "hitesh"
+let score = "ishwar"
 
 //console.log(typeof score);
 //console.log(typeof(score));
@@ -12,7 +12,7 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "ishwar"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
@@ -66,3 +66,4 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
