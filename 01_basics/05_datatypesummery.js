@@ -17,7 +17,7 @@ let userEmail;
 const id = Symbol("1234")
 const idnew = Symbol("1234")
 
-console.log(id === idnew);
+// console.log(id === idnew);
 
 
 
@@ -38,3 +38,41 @@ console.log(id === idnew);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack and Heap
+
+
+//  stack (premitives ) and Heap (non-premitives.)
+
+let myname = "ishwar";
+
+let myanpthetname= myname;
+
+myanpthetname ="coding champion";
+
+// console.log(myanpthetname);
+// console.log(myname);
+
+
+let user = {
+    name: "ishwar",
+    userid: "ishwarkumar09@gmail.com"
+}
+
+let user2 = user
+user.userid = "kumarishwar@gmail.com"
+
+// console.log(user2);
+// console.log(user.userid );
+user.name = 2;
+
+console.log(user.name)
+console.log(user);
+
+
+
+
