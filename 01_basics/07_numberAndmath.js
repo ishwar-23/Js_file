@@ -32,6 +32,7 @@ const hundred = 10000000;
  console.log(Math.abs(-5));
 
  console.log(Math.round(7.89));
+ console.log(Math.round(9.89));
  
 
 
