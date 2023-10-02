@@ -53,6 +53,25 @@ const arr_2 = [4,5,63,45,78,6,0,4];
 // console.log(arr_2.includes(0));
 
 
+// const newArray = arr_2.join();
+
+// console.log(arr_2);
+// console.log(newArray);
+// console.log( typeof newArray);
+
+// slice and splice 
+
+
+let sliceArray = [8,4,7,8,3,5,0,5,7,89,44,676];
+
+// console.log(sliceArray);
+// console.log(sliceArray.slice(1,5));
+// console.log(sliceArray.splice(2,6));
+
+
+
+
+
 
 
 
