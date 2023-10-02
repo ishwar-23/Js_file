@@ -33,11 +33,18 @@ const jsUser = {
 
 
 jsUser.greetings = function (){
-  console.log(jsUser.greetings);
+  console.log("hi iam a js user ");
 }
 
-console.log(jsUser.greetings);
+console.log(jsUser.greetings());
 
 
+
+jsUser.greetingsThree = function (){
+  console.log(`hi am my name is ${this.fullname} i am js user`);
+  console.log(`hi am using ${this.email} i am js user`);
+}
+
+console.log(jsUser.greetingsThree());
 
 
